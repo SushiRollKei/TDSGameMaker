@@ -4,6 +4,7 @@ if instance_exists(player) with player {
 	 draw_set_color(c_orange);
 	 draw_text(100, 620, string("Tactical:"));
 	 
+	 
 	 draw_set_color(c_white);
 	 if tactDelay > 0 {
 		draw_sprite_ext(sTact_status, 0, 150, 600, image_xscale, image_yscale, image_angle, image_blend, image_alpha);
