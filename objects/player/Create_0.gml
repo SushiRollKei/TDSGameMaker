@@ -3,8 +3,8 @@
 //CAMERA
 
 //States
-states = states.free
-
+states = states.free;
+projectiles = projectiles.kunai;
 //Define Variables
 w_spd = 0.5;
 n_spd = 4;
@@ -15,6 +15,7 @@ tact_Dash = 1;
 moving = 0;
 
 myAmmo = 6;
+
 
 spd = n_spd;
 spd_var = 1;

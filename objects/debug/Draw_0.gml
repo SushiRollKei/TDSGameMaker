@@ -3,6 +3,7 @@
 
 
 //Temp Variable set up
+
 var array = []
 array[states.free] = "free";
 array[states.fire1] = "fire1";
@@ -10,9 +11,11 @@ array[states.fire2] = "fire2";
 array[states.tactical] = "tactical";
 array[states.reload] = "reloading";
 array[states.secfire] = "secfire";
-array[states.sectact] = "sectct";
+array[states.sectact] = "sectact";
 
 //Draw States
+
+if debugActive = 1{
 if instance_exists(player) with player {
      var xx = x + 64;
      var yy = y - 64;
@@ -32,4 +35,5 @@ if instance_exists(player) with player {
 	 } else {
 		 draw_text(debugx,debugy,"Tactical: " + string("Ready") ) ;
 	 }
+}
 }

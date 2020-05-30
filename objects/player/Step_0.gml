@@ -17,53 +17,57 @@ if tact_canUse = 0 {
 switch (states)
 {
 	case states.free:
+	projectiles = projectiles.none;
 	myCurrentSprite = sTest
 		if (input.mouseLeftPress) {
 			if myAmmo > 0{
 				timer = 20;
 				states = states.fire1;
 			}
-	}	else if (!input.mouseLeftPress){
-			if (input.mouseRightPress){
-				if ((myAmmo - 3) > -1){
-					timer = 20;
-					states = states.secfire;
+		}else if (input.mouseRightPress){
+			if ((myAmmo - 3) > -1){
+				timer = 20;
+				states = states.secfire;
+			}
+		}else if (input.tactPress) {
+			if tact_canUse = 1{
+				if (moving = 1) {
+					states = states.free;
+					timer = 10;
+					states = states.tactical;
 				}
-			} else if (!input.mouseRightPress)
-				if (input.tactPress) {
-					if tact_canUse = 1{
-						if (moving = 1) {
-							states = states.free;
-							timer = 10;
-							states = states.tactical;
-						}
-					}
-		} else if (!input.tactPress) {
-			if (input.reloadPress){
-				if !(myAmmo = 6){
-					timer = 15;
-					states = states.reload;
-				}
+			}
+		}else if (input.reloadPress){
+			if !(myAmmo = 6){
+				timer = 15;
+				states = states.reload;
+			}
+		}else if (input.secPress){
+			if myAmmo > 0{
+				timer = 15;
+				states = states.sectact;
+			}
 		}
-	}	
-	}
-	break;
+		break;
 	case states.fire1:
 		fireLogic(sTestFire1_1, states.fire2)
-	break;
+		break;
 	case states.fire2:
 		fireLogic(sTestFire1_12, states.fire1)
 		break;
 	case states.tactical:
 		tacticalLogic();
-	break;
+		break;
 	case states.reload:
 		reloadLogic();
-	break;
+		break;
 	case states.secfire:
 		secFireLogic();
+		break;
+	case states.sectact:
+		sectactLogic();
 	break;
-}
+}	
 #endregion
 #region Controls
 key_Up			 = keyboard_check(ord("W"));

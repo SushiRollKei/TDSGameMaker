@@ -11,3 +11,9 @@ enum states {
   sectact
   
 }
+
+enum projectiles {
+	kunai,
+	smoke,
+	none
+}

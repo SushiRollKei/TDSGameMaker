@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "09f559fd-2f77-4443-ae3a-168534bfd9b8",
+            "Value": {
+                "id": "238cacb1-d897-4d05-82ab-2935538acbec",
+                "resourcePath": "scripts\\sectactLogic\\sectactLogic.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0ac21c46-1b6f-47b4-bf63-967d16ebdc60",
             "Value": {
                 "id": "57cb88b9-dc8b-4744-9627-b4dc8326219a",
@@ -1574,7 +1582,8 @@
         "bccd9e62-79d3-43b3-b1a8-f4068f63f5f5",
         "d243115f-c5ab-4006-b385-4824a2092d63",
         "2d09a48d-5e3a-46fb-a707-820829e45e70",
-        "9b421223-f2cc-4c28-8206-e0ec98240674"
+        "9b421223-f2cc-4c28-8206-e0ec98240674",
+        "09f559fd-2f77-4443-ae3a-168534bfd9b8"
     ],
     "tutorial": ""
 }
