@@ -6,6 +6,8 @@ enum states {
   fire1,
   fire2,
   tactical,
-  reload
+  reload,
+  secfire,
+  sectact
   
 }

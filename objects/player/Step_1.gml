@@ -15,6 +15,26 @@ if (states = states.fire1) or (states = states.fire2) {
 			image_angle = direction;
 		}
 	}
+} else if (states = states.secfire) {
+	if (timer = 20) {
+		myAmmo = myAmmo-3;
+	//recoil = 5;
+		with (instance_create_layer(x,y,"Bullets",oProj)){
+			speed		= 50;
+			direction	= other.myAngle + -4;
+			image_angle = direction;
+}
+		with (instance_create_layer(x,y,"Bullets",oProj)){
+			speed		= 50;
+			direction	= other.myAngle + 0;
+			image_angle = direction;
+}
+		with (instance_create_layer(x,y,"Bullets",oProj)){
+			speed		= 50;
+			direction	= other.myAngle + 4;
+			image_angle = direction;
+		}
+	}
 }
 //Location Recoil ("jumps")
 //x					= x - lengthdir_x(recoil,image_angle);

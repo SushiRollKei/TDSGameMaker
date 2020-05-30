@@ -15,7 +15,7 @@ var ae_states = argument[1]
 				if (fireAgain = true) {
 					states = ae_states;
 					fireAgain = false;
-					timer = 15;
+					timer = 20;
 			}	else {
 					states = states.free;
 					timer = -1;

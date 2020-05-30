@@ -983,6 +983,14 @@
             }
         },
         {
+            "Key": "9b421223-f2cc-4c28-8206-e0ec98240674",
+            "Value": {
+                "id": "5cb3ab47-1393-4ed1-af30-60ac7ba8032c",
+                "resourcePath": "scripts\\secFireLogic\\secFireLogic.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "9b9a3c60-611b-4a13-9179-fc35d9e8c042",
             "Value": {
                 "id": "9674b241-cc87-4de8-a372-81e0140869aa",
@@ -1383,6 +1391,14 @@
             }
         },
         {
+            "Key": "f0294e92-bba9-4b3f-a4cd-9259f5bbad7d",
+            "Value": {
+                "id": "73739869-0ee3-48fa-bff7-6aa75695e865",
+                "resourcePath": "sprites\\sSecFire\\sSecFire.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f3acc584-19da-47fc-af94-9bd295b8dc79",
             "Value": {
                 "id": "e748ec25-561f-4173-8a32-f897baadd94a",
@@ -1557,7 +1573,8 @@
         "f629704f-7975-4434-a2d0-00850c758150",
         "bccd9e62-79d3-43b3-b1a8-f4068f63f5f5",
         "d243115f-c5ab-4006-b385-4824a2092d63",
-        "2d09a48d-5e3a-46fb-a707-820829e45e70"
+        "2d09a48d-5e3a-46fb-a707-820829e45e70",
+        "9b421223-f2cc-4c28-8206-e0ec98240674"
     ],
     "tutorial": ""
 }

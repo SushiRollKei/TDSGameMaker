@@ -9,6 +9,8 @@ array[states.fire1] = "fire1";
 array[states.fire2] = "fire2";
 array[states.tactical] = "tactical";
 array[states.reload] = "reloading";
+array[states.secfire] = "secfire";
+array[states.sectact] = "sectct";
 
 //Draw States
 if instance_exists(player) with player {

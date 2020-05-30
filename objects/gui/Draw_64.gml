@@ -14,5 +14,10 @@ if instance_exists(player) with player {
 	 draw_set_color(c_orange);
 	 draw_text(300, 620, string("Ammo:"));
 	  draw_set_color(c_white);
+	  
+	  if states = states.reload {
+	  draw_sprite_ext(sAmmo, 7, 450, 620, image_xscale, image_yscale, image_angle, image_blend, image_alpha);
+	  }else {
 	 draw_sprite_ext(sAmmo, myAmmo, 450, 620, image_xscale, image_yscale, image_angle, image_blend, image_alpha);
+	  }
 }

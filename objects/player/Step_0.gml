@@ -20,22 +20,30 @@ switch (states)
 	myCurrentSprite = sTest
 		if (input.mouseLeftPress) {
 			if myAmmo > 0{
-				timer = 15;
+				timer = 20;
 				states = states.fire1;
 			}
 	}	else if (!input.mouseLeftPress){
-			if (input.tactPress) {
-				if tact_canUse = 1{
-					if (moving = 1) {
-						states = states.free;
-						timer = 10;
-						states = states.tactical;
+			if (input.mouseRightPress){
+				if ((myAmmo - 3) > -1){
+					timer = 20;
+					states = states.secfire;
 				}
-			}
+			} else if (!input.mouseRightPress)
+				if (input.tactPress) {
+					if tact_canUse = 1{
+						if (moving = 1) {
+							states = states.free;
+							timer = 10;
+							states = states.tactical;
+						}
+					}
 		} else if (!input.tactPress) {
 			if (input.reloadPress){
-				timer = 20;
-				states = states.reload;
+				if !(myAmmo = 6){
+					timer = 15;
+					states = states.reload;
+				}
 		}
 	}	
 	}
@@ -51,6 +59,9 @@ switch (states)
 	break;
 	case states.reload:
 		reloadLogic();
+	break;
+	case states.secfire:
+		secFireLogic();
 	break;
 }
 #endregion
