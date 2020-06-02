@@ -29,6 +29,8 @@ moveX = 0;
 moveY = 0;
 
 
+global.PlayerCurrentState = states;
+
 //Timer
 timer = -1
 fireAgain = false;

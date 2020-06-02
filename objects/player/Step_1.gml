@@ -10,6 +10,7 @@ if (states = states.fire1) or (states = states.fire2) {
 		myAmmo --;
 	//recoil = 5;
 		with (instance_create_layer(x,y,"Bullets",oProj)){
+			//myProjType = 1;
 			speed		= 50;
 			direction	= other.myAngle + random_range(-0.5,0.5);
 			image_angle = direction;
@@ -20,16 +21,19 @@ if (states = states.fire1) or (states = states.fire2) {
 		myAmmo = myAmmo-3;
 	//recoil = 5;
 		with (instance_create_layer(x,y,"Bullets",oProj)){
+			//myProjType = 1;
 			speed		= 50;
 			direction	= other.myAngle + -4;
 			image_angle = direction;
 }
 		with (instance_create_layer(x,y,"Bullets",oProj)){
+			//myProjType = 1;
 			speed		= 50;
 			direction	= other.myAngle + 0;
 			image_angle = direction;
 }
 		with (instance_create_layer(x,y,"Bullets",oProj)){
+			//myProjType = 1;
 			speed		= 50;
 			direction	= other.myAngle + 4;
 			image_angle = direction;
@@ -42,8 +46,8 @@ if (states = states.sectact){
 	//recoil = 5;
 		with (instance_create_layer(x,y,"Bullets",oProj)){
 			speed		= 10;
-			direction	= other.myAngle + random_range(-0.5,0.5);
-			point_direction(xprevious,yprevious, mouse_x,mouse_y);
+			direction	= other.myAngle;
+			image_angle = direction;
 		}
 	}
 }
