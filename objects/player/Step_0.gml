@@ -43,10 +43,9 @@ switch (states)
 				states = states.reload;
 			}
 		}else if (input.secPress){
-			if myAmmo > 0{
-				timer = 15;
-				states = states.sectact;
-			}
+			//if myAmmo > 0{
+				//timer = 15;
+				//states = states.sectact;
 		}
 		break;
 	case states.fire1:
