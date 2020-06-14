@@ -455,6 +455,14 @@
             }
         },
         {
+            "Key": "4485c8da-ffdf-45a7-a258-baef906a1ab6",
+            "Value": {
+                "id": "9ac3f12a-7134-4e8a-922a-86e00ca41e98",
+                "resourcePath": "scripts\\approach\\approach.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "44ca28d9-79fe-4bad-ae3e-570fb731d622",
             "Value": {
                 "id": "9db4ea3a-5922-46c0-b8d0-445852b876a2",
@@ -1012,6 +1020,14 @@
                 "id": "9a37982b-c5f3-46d5-a3c2-daeff14eaba0",
                 "resourcePath": "sprites\\sFloor\\sFloor.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a1c788f1-d147-44b5-972f-fec79a2b6ee5",
+            "Value": {
+                "id": "db0f6500-b422-42b4-8c4b-c813a761ea19",
+                "resourcePath": "objects\\oSurface\\oSurface.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1583,7 +1599,8 @@
         "d243115f-c5ab-4006-b385-4824a2092d63",
         "2d09a48d-5e3a-46fb-a707-820829e45e70",
         "9b421223-f2cc-4c28-8206-e0ec98240674",
-        "09f559fd-2f77-4443-ae3a-168534bfd9b8"
+        "09f559fd-2f77-4443-ae3a-168534bfd9b8",
+        "4485c8da-ffdf-45a7-a258-baef906a1ab6"
     ],
     "tutorial": ""
 }
