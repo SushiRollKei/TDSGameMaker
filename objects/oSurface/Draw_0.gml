@@ -12,11 +12,14 @@ if (!surface_exists(surface))
 //Set up surface
 
 surface_set_target(surface);
+	//Set Up Room Surface
     draw_clear_alpha(c_black, myAlpha);
     //draw_set_color(c_white);
+	
+	//Building 1
     if (player.x > 256) and (player.x < 767) and (player.y < 1119) and (player.y > 880)
     {
-        myAlpha = approach(myAlpha,0.9,0.1);
+        myAlpha = approach(myAlpha,0.8,0.1);
         gpu_set_blendmode(bm_subtract);
         draw_set_colour(c_black);
         draw_rectangle(256,1119,767,880, false);
