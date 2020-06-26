@@ -783,6 +783,14 @@
             }
         },
         {
+            "Key": "75ac291e-7061-4bcb-8e8a-3b3545332d41",
+            "Value": {
+                "id": "cd426834-33dd-44c3-b942-09f8a7ce2702",
+                "resourcePath": "options\\html5\\options_html5.yy",
+                "resourceType": "GMHtml5Options"
+            }
+        },
+        {
             "Key": "7608d3cc-9d66-4478-a768-a848a1119644",
             "Value": {
                 "id": "dd57e847-5144-4cf3-a7c0-cfade83ac64b",
@@ -871,6 +879,14 @@
             }
         },
         {
+            "Key": "8427047f-9ef8-4c77-89f3-9c20623d07b6",
+            "Value": {
+                "id": "641711ab-5594-472f-af4c-63254dc98b00",
+                "resourcePath": "options\\ios\\options_ios.yy",
+                "resourceType": "GMiOSOptions"
+            }
+        },
+        {
             "Key": "85531cd2-310f-4844-acfc-2352cc4af66c",
             "Value": {
                 "id": "33aa4062-f538-4f74-8fa0-d16e4ed3beb0",
@@ -908,6 +924,14 @@
                 "id": "bd9b3ffc-c3b8-4ca2-a2dc-66ed1fcfa378",
                 "resourcePath": "scripts\\uc_set_view_scale\\uc_set_view_scale.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "8e7908ba-0461-408a-887d-17ce890b659c",
+            "Value": {
+                "id": "e3b363c3-abfb-4c55-8fba-9987c2f08321",
+                "resourcePath": "objects\\class_player\\class_player.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -956,6 +980,14 @@
                 "id": "2125175c-d7f1-4755-9188-96fa5c5f72a8",
                 "resourcePath": "scripts\\uc_get_mouse_drag_acceleration\\uc_get_mouse_drag_acceleration.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "93566aad-c3b3-48a9-8fa7-9c5ee19f74ac",
+            "Value": {
+                "id": "05da2f59-cc2b-4a31-b60e-706be0462f2d",
+                "resourcePath": "options\\tvos\\options_tvos.yy",
+                "resourceType": "GMtvOSOptions"
             }
         },
         {
@@ -1047,6 +1079,14 @@
             }
         },
         {
+            "Key": "a128950b-5063-4876-b4a6-b99dbd2ea6d1",
+            "Value": {
+                "id": "ea03a4f3-4b25-4aef-aee4-6fb75ae175ce",
+                "resourcePath": "options\\amazonfire\\options_amazonfire.yy",
+                "resourceType": "GMAmazonFireOptions"
+            }
+        },
+        {
             "Key": "a1c788f1-d147-44b5-972f-fec79a2b6ee5",
             "Value": {
                 "id": "db0f6500-b422-42b4-8c4b-c813a761ea19",
@@ -1092,6 +1132,14 @@
                 "id": "5aa8a98e-77b8-48e1-84e9-ae3bfb32f159",
                 "resourcePath": "scripts\\uc_get_x\\uc_get_x.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
+            "Value": {
+                "id": "c2a4d984-d84f-4c90-85e0-591bef76ff2d",
+                "resourcePath": "options\\linux\\options_linux.yy",
+                "resourceType": "GMLinuxOptions"
             }
         },
         {
@@ -1391,6 +1439,14 @@
             }
         },
         {
+            "Key": "e42bf5cc-3f46-4d67-a6d0-a4885a11ac3f",
+            "Value": {
+                "id": "6a4eb5f7-4854-48bc-aa28-cf49e081fa45",
+                "resourcePath": "options\\android\\options_android.yy",
+                "resourceType": "GMAndroidOptions"
+            }
+        },
+        {
             "Key": "e939c6ad-18a3-4407-83c3-9e008d3711c8",
             "Value": {
                 "id": "45a947db-b379-42ab-b996-61d83e41327c",
@@ -1460,6 +1516,14 @@
                 "id": "e748ec25-561f-4173-8a32-f897baadd94a",
                 "resourcePath": "views\\f3acc584-19da-47fc-af94-9bd295b8dc79.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
+            "Value": {
+                "id": "fc82c426-7b93-4822-af54-6f316e135d05",
+                "resourcePath": "options\\mac\\options_mac.yy",
+                "resourceType": "GMMacOptions"
             }
         },
         {

@@ -5,16 +5,6 @@
     "name": "player",
     "eventList": [
         {
-            "id": "11577d56-377c-44cc-a188-1a9e734b3177",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "dde408f9-da39-46a3-be5d-366ffb23b95a"
-        },
-        {
             "id": "af61cece-55a0-4492-a0b1-9f62fc83be26",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -43,11 +33,21 @@
             "enumb": 0,
             "eventtype": 8,
             "m_owner": "dde408f9-da39-46a3-be5d-366ffb23b95a"
+        },
+        {
+            "id": "03f8160f-aa47-4454-8fbd-c7a681766fcd",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "dde408f9-da39-46a3-be5d-366ffb23b95a"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "8e7908ba-0461-408a-887d-17ce890b659c",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
